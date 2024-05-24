@@ -1,0 +1,14 @@
+th, td {
+  border: 2px solid red;
+  border-radius: 20px;
+}
+body{
+ background-color:skyblue;
+  }
+th{
+  color:blue;
+  }
+  td{
+  color:white;
+  }
+
