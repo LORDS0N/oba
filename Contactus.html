@@ -1,0 +1,224 @@
+<html>
+    <!--Favicon-->
+<link rel="icon" type="image/png" sizes="16x16" href="blog.jpg">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Contact us </title>
+  <body>
+    <style>
+      body{
+      background-color:black;
+      
+      
+      }
+      h3{
+      background-color:red;
+      font-size:200%;
+      text-align:center;
+      }
+      ul{
+      font-family:courier;
+      color:white;
+      }
+      
+      h4{
+      background-color:red;
+      text-align:center;
+      }
+
+      a {
+        text-decoration:none;
+      }
+      label {
+        color:white;
+      }
+
+      
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: royalblue;
+  color: white;
+}
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .Principles:hover .dropbtn {
+  background-color: royalblue;
+}
+
+li.Principles {
+  display: inline-block;
+}
+
+.Principles-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.Principles-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.Principles-content a:hover {background-color: #f1f1f1;}
+
+.Principles:hover .Principles-content {
+  display: block;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+    </style>
+    <div class="topnav">
+      <a href="Blog.html">Blog</a>
+      <a  href="Homepage.html">Home</a>
+      <li class="Principles">
+        <a href="javascript:void(0)" class="dropbtn">Principles</a>
+        <div class="Principles-content">
+          <a href="Principles.html" >Principles of Website development</a>
+          <a href="PrinciplesHCI.html" >Principles of Human Computer Interaction</a>
+          
+        </div></li>
+      <a class="active" href="#contactus">Contact Us</a>
+      <a href="Aboutus.html">About Us</a>
+    </div>
+    <h3> Contact us </h3>
+    <ul>
+      <li> Email address: studenthub@lsec.ac.uk </li>
+      <li> Telephone number: Tel: 020 3954 4000 </li>
+      <li> Address: Bromley, Rookery Ln, Bromley BR2 8HE </li>
+    </ul>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2489.8698953236385!2d0.035339699999999995!3d51.38706919999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8aaf78ead61b9%3A0x96e012773668d3ea!2sLondon%20South%20East%20Colleges%3A%20Bromley!5e0!3m2!1sen!2suk!4v1716649341134!5m2!1sen!2suk" width="50%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br><br>
+    
+    <hr>
+    <h4>Fill in the form below and drop a review below </h4>
+    <div class="container">
+      <form action="/action_page.php">
+      <div class="row">
+        <div class="col-25">
+          <label for="fname">First Name</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="lname">Last Name</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="country">Country</label>
+        </div>
+        <div class="col-75">
+          <select id="country" name="country">
+            <option value="United Kingdom">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="subject">Subject</label>
+        </div>
+        <div class="col-75">
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <input type="submit" value="Submit">
+      </div>
+      </form>
+    </div>
+    
+    
+  </body>
+  <html>

@@ -1,0 +1,191 @@
+<html>
+  <!--Favicon-->
+<link rel="icon" type="image/png" sizes="16x16" href="blog.jpg">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--Title-->
+  <title>Blog</title>
+<head>
+<style>
+body {
+  
+  background-image:url('blog.jpg');
+  
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .Principles:hover .dropbtn {
+  background-color: royalblue;
+}
+
+li.Principles {
+  display: inline-block;
+}
+
+.Principles-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.Principles-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.Principles-content a:hover {background-color: #f1f1f1;}
+
+.Principles:hover .Principles-content {
+  display: block;
+}
+h4 {
+  color:royalblue;
+      font-size:1500%;
+      text-align:center;
+      background-color:	white;
+      font-family:courier;
+      
+      
+}
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+  
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+span {
+  color:white;
+  float:right;
+}
+footer {
+  background-color:royalblue;
+  border: 2px solid;
+  color:white;
+  text-align:center;
+}
+</style>
+</head>
+<body>
+  
+<ul>
+  <li><a href="#Blog">Blog</a></li>
+  <li><a href="Homepage.html">Homepage</a></li>
+  <li class="Principles">
+    <a href="javascript:void(0)" class="dropbtn">Principles</a>
+    <div class="Principles-content">
+      <a href="Principles.html">Principles of Website development</a>
+      <a href="PrinciplesHCI.html">Principles of Human Computer Interaction</a>
+      
+    </div>
+  <li><a href="Awareness.html" >Awareness page</a></li>
+  
+  </li>
+  
+  <div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+      <a href="Aboutus.html" >About us</a>
+      <a href="Contactus.html" >Contact us</a>
+      <a href="https://www.instagram.com/heislordson/">Instagram</a>
+      <a href="https://www.facebook.com/profile.php?id=100073387534519">Facebook</a>
+    </div>
+  </div>
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; More</span>
+
+<script>
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+</script>
+</ul>
+    <!--page name-->
+    <marquee><h4> Blog! </h4></marquee>
+    
+
+    <!--Image-->
+    
+<hr>
+
+<!--footer-->
+<footer>
+  <p>Author: Obasina Adebisi</p>
+</footer>
+    
+    
+
+
+
+</body>
+</html>
